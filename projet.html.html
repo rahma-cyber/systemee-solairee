@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع يعرض معلومات عن كوكب زحل، خصائصه ومكوناته.">
+    <meta name="keywords" content="زحل, كوكب زحل, النظام الشمسي, الفضاء, حلقات زحل">
+    <meta name="author" content="رحمة ردادي">
+    <title>كوكب زحل</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #FFF; 
+        }
+
+        .header {
+            background-color: rgba(212, 175, 55, 0.9); 
+            color: #FFF;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: rgba(106, 78, 35, 0.9); 
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .gold-text {
+            color: #FFD700; 
+        }
+        h1 {
+            color: #FFF; 
+        }
+        p, h3 {
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        p:hover, h3:hover {
+            transform: scale(1.05);
+            color: #A06E3C; 
+        }
+
+        h2, h3 {
+            color: #FFD700; 
+        }
+        .btn-primary {
+            background-color: #F4B400; 
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: #E6A600; 
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .form-label {
+            color: #FFD700; 
+        }
+        .form-control, .form-select {
+            border: 1px solid #D4AF37; 
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .video-container iframe, .video-container object, .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <p id="haut"></p>
+
+    <!-- العنوان الرئيسي -->
+    <div class="header">
+        <h1>كوكب زحل</h1>
+        <p>استمتع برحلة في عالم زحل الساحر مع حلقاته المدهشة وأقماره العجيبة.</p>
+    </div>
+
+    <!-- المحتوى -->
+    <div class="container my-4">
+        <!-- فقرة تعريفية -->
+        <h2 class="gold-text">معلومات عن كوكب زحل:</h2>
+        <p>كوكب زحل هو كوكب غازي عملاق يتكون أساسًا من الهيدروجين والهيليوم، ويتميز بحلقاته المدهشة التي تدور حوله، وهذه الحلقات تتكون من قطع صغيرة من الجليد والغبار. كما أن زحل يعتبر الكوكب السادس في ترتيب المسافة عن الشمس.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Saturn_%28planet%29_large.jpg/800px-Saturn_%28planet%29_large.jpg" alt="Saturn Image" class="image">
+
+        <hr style="border: 1px solid #FFD700; margin: 20px 0;">
+
+        <!-- فقرة عن الحلقات -->
+        <h3 class="gold-text">حلقات زحل:</h3>
+        <p>تتكون حلقات زحل من آلاف الحلقات الصغيرة التي تتشكل من جزيئات الجليد والغبار، وهي تمتد لمسافات شاسعة حول الكوكب. على الرغم من مظهرها المتصل، إلا أن هذه الحلقات عبارة عن مليارات القطع الصغيرة التي تدور بسرعات متفاوتة.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Saturn_Rings.jpg/800px-Saturn_Rings.jpg" alt="Saturn Rings" class="image">
+
+        <hr style="border: 1px solid #FFD700; margin: 20px 0;">
+
+        <!-- فقرة عن الأقمار -->
+        <h3 class="gold-text">أقمار زحل:</h3>
+        <p>يمتلك زحل أكثر من 80 قمرًا معروفًا، ومن أبرزها قمر "تيتان" الذي يُعد ثاني أكبر قمر في النظام الشمسي ويتميز بوجود غلاف جوي سميك. تيتان يعد من الأماكن المحتملة لدراسة الحياة خارج الأرض.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Titan_in_true_color.jpg/800px-Titan_in_true_color.jpg" alt="Titan Moon" class="image">
+
+        <hr style="border: 1px solid #FFD700; margin: 20px 0;">
+
+        <!-- فقرة عن استكشاف زحل -->
+        <h3 class="gold-text">استكشاف زحل:</h3>
+        <p>كانت مركبة "كاسيني" الفضائية من أبرز المشاريع التي درست كوكب زحل. أطلقتها ناسا في عام 1997 ووصلت إلى الكوكب عام 2004. قدمت كاسيني صورًا مذهلة ومعلومات مفصلة عن الحلقات والأقمار، واستمرت مهمتها حتى عام 2017.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/xrGAQCq9BMU" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <hr style="border: 1px solid #FFD700; margin: 20px 0;">
+
+        <!-- نموذج -->
+        <h3>شارك رأيك:</h3>
+        <form action="#" method="post" class="border p-3">
+            <div class="mb-3">
+                <label for="name" class="form-label">اسمك:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="feedback" class="form-label">رأيك:</label>
+                <textarea id="feedback" name="feedback" rows="4" class="form-control" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="satisfaction" class="form-label">هل أعجبك المشروع؟</label>
+                <select id="satisfaction" name="satisfaction" class="form-select">
+                    <option value="satisfied">نعم</option>
+                    <option value="not_satisfied">لا</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">إرسال</button>
+        </form>
+    </div>
+
+    <!-- الفوتر -->
+    <div class="footer">
+        <p>تم إعداد هذا المشروع من قبل: <strong>رحمة ردادي</strong></p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <a href="#haut">Retour en haut</a>
+</body>
+</html>
